@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Modular House Design</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  
+  <!-- AOS Animation CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">ModularDesign</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+        <li class="nav-item"><a class="nav-link" href="#models">Models</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<header class="hero d-flex align-items-center text-white text-center" id="hero">
+  <div class="container">
+    <h1 data-aos="fade-down">Smart Modular Living</h1>
+    <p data-aos="fade-up" data-aos-delay="300">Design your future with innovative, eco-friendly modular homes.</p>
+    <a href="#contact" class="btn btn-warning btn-lg mt-3" data-aos="zoom-in" data-aos-delay="600">Get Started</a>
+  </div>
+</header>
+
+<!-- Features Section -->
+<section class="py-5" id="features">
+  <div class="container text-center">
+    <h2 data-aos="fade-up">Why Choose Us</h2>
+    <div class="row mt-4">
+      <div class="col-md-4" data-aos="fade-right">
+        <div class="card p-4 shadow">
+          <h4>Eco-Friendly</h4>
+          <p>Built using sustainable materials and energy-efficient systems.</p>
+        </div>
+      </div>
+      <div class="col-md-4" data-aos="fade-up">
+        <div class="card p-4 shadow">
+          <h4>Customizable</h4>
+          <p>Layouts, finishes, and features tailored to your lifestyle.</p>
+        </div>
+      </div>
+      <div class="col-md-4" data-aos="fade-left">
+        <div class="card p-4 shadow">
+          <h4>Fast Build</h4>
+          <p>Move into your new home in a fraction of traditional build time.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Models Section -->
+<section class="bg-light py-5" id="models">
+  <div class="container text-center">
+    <h2 data-aos="fade-up">Our House Models</h2>
+    <div class="row mt-4">
+      <div class="col-lg-4" data-aos="zoom-in">
+        <div class="card shadow-sm">
+          <img src="https://source.unsplash.com/400x300/?modern,home" class="card-img-top" alt="Model 1" />
+          <div class="card-body">
+            <h5 class="card-title">Urban Compact</h5>
+            <p>Perfect for city living. 1 bed, 1 bath.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+        <div class="card shadow-sm">
+          <img src="https://source.unsplash.com/400x300/?house,modular" class="card-img-top" alt="Model 2" />
+          <div class="card-body">
+            <h5 class="card-title">Family Flex</h5>
+            <p>3 bed, 2 bath. Flexible space for growing families.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="400">
+        <div class="card shadow-sm">
+          <img src="https://source.unsplash.com/400x300/?eco,home" class="card-img-top" alt="Model 3" />
+          <div class="card-body">
+            <h5 class="card-title">Off-Grid Eco</h5>
+            <p>Solar powered. 2 bed, 1 bath, water-efficient design.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section class="py-5" id="contact">
+  <div class="container text-center">
+    <h2 data-aos="fade-up">Contact Us</h2>
+    <form action="contact.php" method="POST" class="mt-4 row justify-content-center g-3" data-aos="fade-up" data-aos-delay="300">
+      <div class="col-md-6">
+        <input type="text" name="name" class="form-control" placeholder="Your Name" required />
+      </div>
+      <div class="col-md-6">
+        <input type="email" name="email" class="form-control" placeholder="Your Email" required />
+      </div>
+      <div class="col-md-12">
+        <textarea name="message" class="form-control" placeholder="Your Message" rows="5" required></textarea>
+      </div>
+      <div class="col-md-6">
+        <button type="submit" class="btn btn-primary btn-lg w-100">Send Message</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+  <p>&copy; 2025 Modular House Design. All rights reserved.</p>
+</footer>
+
+<!-- Bootstrap & AOS Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
